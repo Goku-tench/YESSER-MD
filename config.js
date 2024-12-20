@@ -17,11 +17,11 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VakA1mu35fM1
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://iili.io/JgAR7WJ.jpg";
 global.devs = "255621995482";
-global.sudo = process.env.SUDO || "255621995482";
-global.owner = process.env.OWNER_NUMBER || "255621995482";
+global.sudo = process.env.SUDO || "255613667586";
+global.owner = process.env.OWNER_NUMBER || "255613667586";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -41,11 +41,11 @@ global.scan = "https://zax-md-beae6ed77007.herokuapp.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "";
+  "Bmwmd$TKfuQP3K";
 
 module.exports = {
   menu: process.env.MENU || "menu1",
-  HANDLERS: process.env.PREFIX || "",
+  HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "©yessermd",
